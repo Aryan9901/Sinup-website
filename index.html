@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <title>Sign Up Ui</title>
+    <style>
+        .textcol {
+            color: #FAFAFB;
+        }
+
+        .black {
+            background-color: #14163E;
+        }
+
+        .redbg {
+            background-color: #F03B7A;
+        }
+
+        .red {
+            color: #F03B7A;
+        }
+
+        .btnbgcol {
+            background-color: #747C92;
+        }
+
+        .bot {
+            background-color: #292553;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container white">
+        <section
+            class="relative rounded-md  flex justify-center items-center container flex-col w-full px-40 py-20 ml-auto mr-auto max-h-screen h-screen pt-4  textcol black">
+            <h1 class="text-lg">Sign In</h1>
+            <div class="mt-7 flex container w-full flex-row justify-center space-x-1 pb-4">
+                <button class=" px-7 mt-6 red btnbgcol">Personel</button>
+                <button class="px-11 mt-6 btnbgcol">Team</button>
+            </div>
+            <form action="mailto:911aaryan@gmail.com" class="flex flex-col w-64">
+                <label for="email">Email Address:</label>
+                <input class="mb-4 w-full btnbgcol" type="email" placeholder="Enter Your Email">
+                <label for="password"><span>Password</span><span class=" ml-14 text-sm red">forgot your
+                        password</span></label>
+                <input class="mb-0 mt-2 btnbgcol w-full" type="password" placeholder="Enter your password">
+                <button class="rounded px-7 mt-6 textcol redbg">Sign In</button>
+            </form>
+            <div class="flex flex-row justify-center items-center bot absolute bottom-0 w-full h-28">
+                <p class="">Dont't have an account yet?</p>
+                <button class="rounded px-7 mt-6 ml-6 textcol redbg relative bottom-3 h-7">Sign Up</button>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
